@@ -90,9 +90,13 @@ import { SIGNEES } from '../edit-me.js'
         </button>
       </a>
 
-      <div class="animate-pulse">
-        ...and star Aeria while you're at it!
-      </div>
+      <a
+        href="https://github.com/aeria-org/aeria"
+        target="_blank"
+        class="animate-pulse"
+      >
+        ...and star Aeria while you're at it! (click here)
+      </a>
     </div>
   </div>
 
