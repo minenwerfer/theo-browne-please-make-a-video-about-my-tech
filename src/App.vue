@@ -53,9 +53,9 @@ import { SIGNEES } from '../edit-me.js'
       <ul>
         <li
           v-for="signee in SIGNEES"
-          :key="signee"
+          :key="signee.github"
         >
-          {{ signee }}
+          {{ signee.github }} - {{ signee.name || 'N/A' }}
         </li>
       </ul>
     </div>
