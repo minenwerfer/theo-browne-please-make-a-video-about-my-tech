@@ -7,5 +7,6 @@ export default defineConfig({
     vue(),
     tailwindcss(),
   ],
+  base: '/theo-browne-please-make-a-video-about-my-tech/',
 })
 
