@@ -9,6 +9,8 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -26,8 +28,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Build packages
-        run: pnpm build
-      - name: Build icons site
         run: pnpm build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
