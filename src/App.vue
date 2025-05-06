@@ -55,7 +55,8 @@ import { SIGNEES } from '../edit-me.js'
           v-for="signee in SIGNEES"
           :key="signee.github"
         >
-          {{ signee.github }} - {{ signee.name || 'N/A' }}
+          {{ signee.name || 'N/A' }} -
+          <a v-bind:href="'https://github.com/' + signee.github" class="underline">{{ signee.github }}🔗</a>
         </li>
       </ul>
     </div>
