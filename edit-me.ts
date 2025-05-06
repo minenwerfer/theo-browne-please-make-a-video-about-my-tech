@@ -4,6 +4,7 @@ export const SIGNEES: { github: string, name?: string }[] = [
   { github: 'nikol4ss', name: 'Nikolas Campos :P', },
   { github: 'Cephas369', name: 'Pedro Ramos', },
   { github: 'SamCaliman', name: 'Samuel Caliman'},
-  { github: 'MarcoSoftEng', name: 'Marco Túlio' }
+  { github: 'MarcoSoftEng', name: 'Marco Túlio' },
+  { github: 'gabrielbsx', name: 'Gabriel Barbosa' },
 ]
 
