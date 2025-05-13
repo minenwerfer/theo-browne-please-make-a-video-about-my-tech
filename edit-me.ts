@@ -12,5 +12,6 @@ export const SIGNEES: { github: string, name?: string }[] = [
   { github: 'HarukaYamamoto0', name: 'Haruka Yamamoto' },
   { github: 'LucasArthurMella', name: 'Lucas Mella' },
   { github: 'EmilyNyx', name: 'Emily Cassidy' },
+  { github: 'wurdleturtle', name: 'Wurdle' },
 ]
 
